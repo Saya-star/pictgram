@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 100;
 }
 
@@ -6,7 +11,8 @@ h1, h2, h3, h4, h5, h6 {
 	height: 120px;
 }
 
-.form-control, form-control-file {
+.form-control,
+form-control-file {
 	height: 45px;
 }
 
@@ -96,7 +102,8 @@ nav.navbar {
 	}
 }
 
-.topics-new-wrapper, .comments-new-wrapper {
+.topics-new-wrapper,
+.comments-new-wrapper {
 	padding-top: 80px;
 
 	#description {
@@ -173,4 +180,13 @@ nav.navbar {
 			}
 		}
 	}
+}
+
+.fc-direction-ltr {
+	padding-top: 70px;
+}
+
+#calendar a {
+	color: #337ab7;
+	text-decoration: none;
 }
