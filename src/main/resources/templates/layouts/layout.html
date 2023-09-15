@@ -25,6 +25,15 @@
 		crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="/scripts/method-convert.js" th:src="@{/scripts/method-convert.js}"></script>
+	<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+	<script>
+		window.OneSignalDeferred = window.OneSignalDeferred || [];
+		OneSignalDeferred.push(function (OneSignal) {
+			OneSignal.init({
+				appId: "412f2a37-1005-49e7-92aa-48a4950a8ad1",
+			});
+		});
+	</script>
 	<script>$(function () {
 			convertMethod('.convert');
 			$(".alert").fadeOut(5000);
